@@ -1,6 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
+//Components
+
+// import Greet from './components/Greet'
+// import Counter from "./components/Component"
+import Koders from './components/Koders'
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +24,8 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* </Greet name="Mauro"> */}
+      <Koders />
     </div>
   );
 }
