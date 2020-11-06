@@ -1,6 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+//Components
+
+// import Greet from './components/Greet'
+// import Counter from "./components/Component"
+import Koders from './components/Koders'
+import ConditionalRendering from './components/ConditionalRendering'
+import Form from './components/Form'
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +27,10 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* </Greet name="Mauro"> */}
+      {/* <Koders /> */}
+      <ConditionalRendering isActive/>
+      {/* <Form/> */}
     </div>
   );
 }
