@@ -44,6 +44,9 @@ li{
   position: relative;
   height: 100px;
 }
+li:active{
+  background-color: antiquewhite;
+}
 
 span{
   background-image: linear-gradient(to right, blue,green);
@@ -52,6 +55,14 @@ span{
   transition: all .5s;
   display: inline-block;
   border-bottom: none;
+}
+
+
+/*
+------Conditional
+*/
+.clicked{
+  background-color: aquamarine;
 }
 
 li:hover span{

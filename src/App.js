@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 
+
 //Components
 
 // import Greet from './components/Greet'
 // import Counter from "./components/Component"
 import Koders from './components/Koders'
+import ConditionalRendering from './components/ConditionalRendering'
+import Form from './components/Form'
 
 function App() {
   return (
@@ -25,7 +28,9 @@ function App() {
         </a>
       </header>
       {/* </Greet name="Mauro"> */}
-      <Koders />
+      {/* <Koders /> */}
+      <ConditionalRendering isActive/>
+      {/* <Form/> */}
     </div>
   );
 }
